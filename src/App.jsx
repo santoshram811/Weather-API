@@ -5,7 +5,7 @@ const App = () => {
   const [city, setCity] = useState("");
   const [weather, setWeather] = useState(null);
 
-  const API_KEY = "04906079c0baf4ad77b6580b1a4850a7"; 
+  const API_KEY = ""; 
 
   const getWeather = async () => {
     if (!city) return;
